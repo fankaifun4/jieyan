@@ -1,12 +1,27 @@
 {
   "pages": [
     "pages/index/main",
-    "pages/counter/main"
+    "pages/werun/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#6ee800",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "selectedColor":"#1afa29",
+    "color":"#999",
+    "list": [{
+      "iconPath":"/static/images/my.png",
+      "selectedIconPath":"/static/images/my_act.png",
+      "pagePath": "pages/index/main",
+      "text": "戒烟记录"
+    }, {
+      "iconPath":"/static/images/run.png",
+      "selectedIconPath":"/static/images/run_act.png",
+      "pagePath": "pages/werun/main",
+      "text": "健康记录"
+    }]
   }
 }

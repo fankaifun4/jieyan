@@ -238,7 +238,7 @@
     </div>
     <div class="wx-body">
       <div class="pick-wrap">
-        <div class="sing-up" @click="signIn" v-if="userTemp.isSign=='0'" > 签到 </div>
+        <div class="sing-up" @click="signIn"  v-if="userTemp.isSign=='0'"> 签到 </div>
       </div>
       <div class="pick-wrap">
         <view class="picker" @click="addSmokeFun">
@@ -347,7 +347,7 @@ export default {
           //this.userTemp
           if(res.code===1){
             this.userTemp.signin = res.data.info.signin
-            this.userTemp.isSing = 1
+            this.userTemp.isSign =1
             wx.showToast({
               title: '签到成功'
             })
