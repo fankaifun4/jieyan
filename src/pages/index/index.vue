@@ -326,7 +326,7 @@ export default {
       this.login=false
     }
 
-    this.getManListFunc()
+    // this.getManListFunc()
 
   },
   methods: {
@@ -377,6 +377,7 @@ export default {
       }
     },
     getUserData(){
+      return
       getTodayData().then(res=>{
         if(res.code===1){
           this.tobaccoNum = res.data.info.data.value

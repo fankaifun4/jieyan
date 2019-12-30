@@ -4,10 +4,10 @@
     "pages/werun/main"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#6ee800",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "light"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "selectedColor":"#1afa29",

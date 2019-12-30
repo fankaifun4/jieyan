@@ -63,7 +63,6 @@ const loginController = {
         cb && cb(null)
       }
     })
-    
   }
 }
 
